@@ -13,6 +13,9 @@
   box-sizing: border-box  ;
 }
 
+.bold {
+  font-weight: bold;
+}
 
 .attribution { 
   font-size: 11px; text-align: center; 
@@ -66,4 +69,71 @@
 .scored-message {
   font-size: 1.2rem;
   opacity: 70%;
+}
+
+/* SUMMARY STYLES */
+
+.summary-section {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.punctuation-box {
+  padding: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+section.summary-section > article:nth-child(2) {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: rgba(255, 0, 0, 0.5);
+}
+
+section.summary-section > article:nth-child(3) {
+  background-color: rgba(255, 174, 0,0.1);
+  color: rgba(255, 174, 0,0.5);
+}
+
+section.summary-section > article:nth-child(4) {
+  background-color: rgba(59, 129, 115,0.1);
+  color: rgba(59, 129, 115,0.5);
+}
+
+section.summary-section > article:nth-child(5) {
+  background-color: rgba(0, 0, 139,0.1);
+  color: rgba(0, 0, 139,0.5);
+}
+
+/* ESTILOS DEL BOTON */
+
+.button-continue {
+  margin: 0 auto;
+  width: 95%;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: rgb(38, 47, 71);
+  border: none;
+  border-radius: 1.5rem;
+}
+
+.button-continue:hover {
+  cursor: pointer;
+  background-color: rgb(27, 11, 169);
+  transition: background-color 500ms;
+}
+
+footer 
+{
+  margin-top: 3rem;
 }
