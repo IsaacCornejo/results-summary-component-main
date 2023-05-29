@@ -15,6 +15,12 @@
 
 .bold {
   font-weight: bold;
+  color: black;
+}
+
+.opacity {
+  color: black;
+  opacity: 50%;
 }
 
 .attribution { 
@@ -136,4 +142,33 @@ section.summary-section > article:nth-child(5) {
 footer 
 {
   margin-top: 3rem;
+}
+
+@media (min-width: 1100px) {
+  body {
+    margin: 0 auto;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+  }
+
+  .summary-section {
+    margin: 0;
+    padding: 2.5rem;
+    background-color: white;
+  }
+
+  .your-result {
+    margin: 0;
+    padding: 3rem;
+    border-radius: 5%;
+    position: relative;
+    right: -1rem;
+  }
+  
+  footer {
+    display: none;
+  }
 }
