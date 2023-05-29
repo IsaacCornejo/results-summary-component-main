@@ -157,10 +157,12 @@ footer
   .summary-section {
     margin: 0;
     padding: 2.5rem;
+    height: 25rem;
     background-color: white;
   }
-
+  
   .your-result {
+    height: 24rem;
     margin: 0;
     padding: 3rem;
     border-radius: 5%;
